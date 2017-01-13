@@ -23,7 +23,42 @@ figure {
   margin: 0;
 }
 
+.film-poster {
+  padding: 5px;
+}
+
 .film {
-  width: 50%;
+  width: 600px;
   margin: 40px auto;
+  border: 2px solid grey;
+  overflow: hidden;
+  position: relative;
+}
+
+.film-poster {
+  float: left;
+  width: 35%;
+  position: relative;
+
+}
+
+.film-details{
+float: right;
+width:65%;
+
+}
+
+.fa-clock-o {
+  position: absolute;
+  top: 3px;
+  right: 8;
+  color: red;
+
+}
+
+.action-like {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: red;
 }
